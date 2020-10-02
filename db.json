@@ -1,0 +1,129 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Márcio Luan Thales da Silva",
+            "idade": 46,
+            "cpf": "80663313120",
+            "rg": "286300722",
+            "data_nasc": "21\/09\/1974",
+            "sexo": "Masculino",
+            "email": "marcioluanthalesdasilva-75@bigfoot.com",
+            "senha": "hiULKphSDn",
+            "cep": "64040550",
+            "endereco": "Rua Nossa Senhora da Luz",
+            "numero": 848,
+            "bairro": "Angelim",
+            "cidade": "Teresina",
+            "estado": "PI",
+            "perfil_id": 1,
+            "status": "Ativo"
+        },
+        {
+            "id": 2,
+            "nome": "Agatha Aparecida Raimunda Moraes",
+            "idade": 27,
+            "cpf": "47119746014",
+            "rg": "112373999",
+            "data_nasc": "19\/02\/1993",
+            "sexo": "Feminino",
+            "email": "agathaaparecidaraimundamoraes_@santander.com.br",
+            "senha": "cCPoKLco1g",
+            "cep": "61602815",
+            "endereco": "Rodovia Estruturante - CE 085",
+            "numero": 467,
+            "bairro": "Itambé",
+            "cidade": "Caucaia",
+            "estado": "CE",
+            "perfil_id": 2,
+            "status": "Inativo"
+        },
+        {
+            "id": 3,
+            "nome": "Alessandra Ana Ramos",
+            "idade": 31,
+            "cpf": "25309835342",
+            "rg": "436075891",
+            "data_nasc": "06\/10\/1989",
+            "sexo": "Feminino",
+            "email": "aalessandraanaramos@patriciagrillo.adv.br",
+            "senha": "eAoyAmmXL6",
+            "cep": "29948535",
+            "endereco": "Rua João José dos Santos",
+            "numero": 801,
+            "bairro": "Nova Lima (Itauninhas)",
+            "cidade": "São Mateus",
+            "estado": "ES",
+            "perfil_id": 2,
+            "status": "Ativo"
+        }
+    ],
+    "perfils": [
+        {
+            "id": 1,
+            "descricao": "Administrador"
+        },
+        {
+            "id": 2,
+            "descricao": "Usuário"
+        }
+    ],
+    "tipos_de_contatos": [
+        {
+            "id": 1,
+            "descricao": "Residencial"
+        },
+        {
+            "id": 2,
+            "descricao": "Comercial"
+        },
+        {
+            "id": 3,
+            "descricao": "Corporativo"
+        }
+    ],
+    "contatos": [
+        {
+            "id": 1,
+            "usuario_id": 1,
+            "nome": "João Pedro da Silva",
+            "telefone": "92918425433",
+            "tipo_contato_id": 1
+        },
+        {
+            "id": 2,
+            "usuario_id": 1,
+            "nome": "Alan Castro de Alves",
+            "telefone": "98434568200",
+            "tipo_contato_id": 2
+        },
+        {
+            "id": 3,
+            "usuario_id": 1,
+            "nome": "Ricardo Sales de Araújo",
+            "telefone": "91986094006",
+            "tipo_contato_id": 2
+        },
+        {
+            "id": 4,
+            "usuario_id": 2,
+            "nome": "Mirela Diaz",
+            "telefone": "91986094006",
+            "tipo_contato_id": 1
+        },
+        {
+            "id": 5,
+            "usuario_id": 2,
+            "nome": "Fernanda Albuquerque Ferraz",
+            "telefone": "98566785000",
+            "tipo_contato_id": 3
+        },
+        {
+            "id": 6,
+            "usuario_id": 3,
+            "nome": "Patrício da Silva Lima",
+            "telefone": "99934059201",
+            "tipo_contato_id": 1
+        }
+    ]
+}
